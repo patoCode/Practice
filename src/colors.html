@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <style>
+        .element {
+            height: 150px;
+            width: 150px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+<!--
+    - bg
+    - text
+    - border
+    - sombras
+    Por ejemplo: "bg-color-valor"
+
+-->
+
+</body>
+
+<div class="container mx-auto h-screen bg-cyan-500">
+    <p class="text-orange-500">
+    HOLA
+    </p>
+    <h2 class="m-5 text-center">PSEUDO-ELEMENTS</h2>
+
+    <button class="px-4 py-5 bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300">
+        Click here!
+    </button>
+
+    <h2 class="m-5 text-center">ESTILOS DE GRUPO</h2>
+    <p>Cuando queremos agrupar agregamos el GROUP y luego GROUP-HOVER por ejemplo</p>
+    <br>
+    <a href="#"
+        class="group block max-w-xs mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500">
+        <div class="flex items-center space-x-3">
+            <svg class="h-6 w-6 stroke-sky-500 group-hover:stroke-white" fill="none" viewBox="0 0 24 24"><!-- ... --></svg>
+            <h3 class="text-slate-900 group-hover:text-white text-sm font-semibold">New project</h3>
+        </div>
+        <p class="text-slate-500 group-hover:text-white text-sm">Create a new project from a variety of starting templates.
+        </p>
+    </a>
+    <br>
+    <br>
+    <br>
+    <a href="https://tailwindcss.com/docs/hover-focus-and-other-states" class="px-5 py-4 bg-violet-900" target="_blank">Ver Más Pseudo-clases</a>
+
+</div>
+
+</html>
